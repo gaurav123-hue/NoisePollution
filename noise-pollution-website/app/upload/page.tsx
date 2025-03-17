@@ -114,8 +114,9 @@ export default function UploadPage() {
   }, [file, router, parseFile]), // Added parseFile to dependencies
 
   const downloadTemplate = useCallback(() => {
-  const template = `id,name,type,lat,lng,date,morning,afternoon,evening\n
-example_id,Example Location,Commercial,19.6967,72.7699,2024-01-01,75.5,78.2,82.1`;
+const template = `id,name,type,lat,lng,date,morning,afternoon,evening\n` +
+`example_id,Example Location,Commercial,19.6967,72.7699,2024-01-01,75.5,78.2,82.1`;
+
 
 
     const blob = new Blob([template], { type: "text/csv" })
