@@ -207,5 +207,5 @@ export const noiseData: NoiseDataItem[] = [
   { id: 'WoodernMill_2024-10-31_morning', name: 'Woodern Mill', type: 'Industrial', lat: 19.8467, lng: 72.9199, date: '2024-10-31', morning: 73.3, afternoon: 75.7, evening: 85.1 },
   { id: 'NavalNagar_2024-10-31_morning', name: 'Naval Nagar', type: 'Residential', lat: 19.8567, lng: 72.9299, date: '2024-10-31', morning: 75.1, afternoon: 82.5, evening: 85.1 },
   { id: 'ShivajiChowk_2024-10-31_morning', name: 'Shivaji Chowk', type: 'High Noise Pollution Area', lat: 19.8667, lng: 72.9399, date: '2024-10-31', morning: 75.1, afternoon: 82.5, evening: 85.1 },
-  { id: 'AmbedkarChawk_2024-10-31_morning', name: 'Ambedkar Chawk', type: 'High Noise Pollution Area', lat: 19.8767,
+  { id: 'AmbedkarChawk_2024-10-31_morning', name: 'Ambedkar Chawk', type: 'High Noise Pollution Area', lat: 19.8767}
 
