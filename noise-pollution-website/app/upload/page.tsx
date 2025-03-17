@@ -115,7 +115,7 @@ export default function UploadPage() {
 
   const downloadTemplate = useCallback(() => {
     const template = `id,name,type,lat,lng,date,morning,afternoon,evening
-example_id,Example Location,Commercial,19.6967,72.7699,2024-01-01,75.5,78.2,82.1`
+example_id,Example Location,Commercial,19.6967,72.7699,2024-01-01,75.5,78.2,82.1`;
 
     const blob = new Blob([template], { type: "text/csv" })
     const url = window.URL.createObjectURL(blob)
